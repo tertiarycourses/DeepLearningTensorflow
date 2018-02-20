@@ -1,7 +1,7 @@
 # Module 9 Keras
 # CNN Model on MNIST dataaset
 
-from tensorflow.python.keras.models import load_model
+from keras.models import load_model
 
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'

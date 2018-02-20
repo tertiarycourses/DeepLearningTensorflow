@@ -1,9 +1,9 @@
 # Module 9 Keras
 # Tensorboard Challenge
 
-from tensorflow.python import keras
-from tensorflow.python.keras.models import Sequential
-from tensorflow.python.keras.layers import Dense
+import keras
+from keras.models import Sequential
+from keras.layers import Dense
 
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'

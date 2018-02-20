@@ -1,9 +1,9 @@
 # Module 9 Keras
-# NN Model on MNIST dataaset
+# NN Model on MNIST dataset
 
-from tensorflow.python import keras
-from tensorflow.python.keras.models import Sequential
-from tensorflow.python.keras.layers import Dense
+import keras
+from keras.models import Sequential
+from keras.layers import Dense
 
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
@@ -42,7 +42,7 @@ print(model.summary())
 model.compile(optimizer='adam',loss='categorical_crossentropy',metrics=['accuracy'])
 
 # Step 4: Train the Model
-model.fit(X_train, y_train,epochs=training_epochs, validation_data=(X_test, y_test), shuffle=True)
+model.fit(X_train, y_train,epochs=training_epochs)
 
 # Step 5: Evaluate the Model
 loss,acc = model.evaluate(X_test, y_test)

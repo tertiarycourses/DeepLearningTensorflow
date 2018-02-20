@@ -5,9 +5,8 @@ import os
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 os.environ['TF_ENABLE_WINOGRAD_NONE_USED']='1'
 
-from tensorflow.python.keras.models import Sequential
-from tensorflow.python.keras.layers import Dense,Dropout,Flatten
-from tensorflow.python.keras.layers import Conv2D, MaxPooling2D
+from keras.models import Sequential
+from keras.layers import Dense,Conv2D, MaxPooling2D,Flatten
 
 # Parameters
 n_classes = 10

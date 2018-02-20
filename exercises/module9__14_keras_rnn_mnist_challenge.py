@@ -1,10 +1,9 @@
 # Module 9 Keras
 # RNN Model on MNIST dataaset
 
-import tensorflow as tf
-from tensorflow.python import keras
-from tensorflow.python.keras.models import Sequential
-from tensorflow.python.keras.layers import Dense, SimpleRNN, LSTM,GRU
+import keras
+from keras.models import Sequential
+from keras.layers import Dense, LSTM
 
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'

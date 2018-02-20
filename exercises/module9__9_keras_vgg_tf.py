@@ -4,9 +4,9 @@
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 
-from tensorflow.python.keras.applications.vgg16 import VGG16
-from tensorflow.python.keras.applications.vgg16 import preprocess_input,decode_predictions
-from tensorflow.python.keras.preprocessing import image
+from keras.applications.vgg16 import VGG16
+from keras.applications.vgg16 import preprocess_input,decode_predictions
+from keras.preprocessing import image
 import numpy as np
 
 # Step 1: Preprocess data

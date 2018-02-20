@@ -1,7 +1,7 @@
 # Module 9 Keras
-# CNN Model on MNIST dataaset
+# NN Model on MNIST dataset
 
-from tensorflow.python.keras.models import load_model
+from keras.models import load_model
 import matplotlib.pyplot as plt
 
 import os

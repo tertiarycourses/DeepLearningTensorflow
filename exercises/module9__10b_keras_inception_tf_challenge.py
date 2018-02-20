@@ -4,9 +4,9 @@
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 
-from tensorflow.python.keras.applications.inception_v3 import InceptionV3
-from tensorflow.python.keras.applications.inception_v3 import preprocess_input,decode_predictions
-from tensorflow.python.keras.preprocessing import image
+from keras.applications.inception_v3 import InceptionV3
+from keras.applications.inception_v3 import preprocess_input,decode_predictions
+from keras.preprocessing import image
 import numpy as np
 
 # Step 1: Preprocess data

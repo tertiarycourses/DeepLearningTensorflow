@@ -5,7 +5,7 @@ import os
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 os.environ['TF_ENABLE_WINOGRAD_NONE_USED']='1'
 
-from tensorflow.python.keras.models import load_model
+from keras.models import load_model
 import numpy as np
 import tkinter as tk
 from PIL import Image, ImageDraw, ImageFilter

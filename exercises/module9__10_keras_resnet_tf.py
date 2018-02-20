@@ -6,9 +6,9 @@ os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 
 import numpy as np
 
-from tensorflow.python.keras.preprocessing import image
-from tensorflow.python.keras.applications.resnet50 import ResNet50
-from tensorflow.python.keras.applications.resnet50 import preprocess_input,decode_predictions
+from keras.preprocessing import image
+from keras.applications.resnet50 import ResNet50
+from keras.applications.resnet50 import preprocess_input,decode_predictions
 
 # Step 1: Preprocess data
 img = image.load_img("images/cobra.jpeg", target_size=(224, 224))

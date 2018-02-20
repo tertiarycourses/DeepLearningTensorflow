@@ -1,8 +1,8 @@
 # Module 9 Keras
 # NN Model on MNIST dataset Challenge
 
-from tensorflow.python.keras.models import Sequential
-from tensorflow.python.keras.layers import Dense
+from keras.models import Sequential
+from keras.layers import Dense
 
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'

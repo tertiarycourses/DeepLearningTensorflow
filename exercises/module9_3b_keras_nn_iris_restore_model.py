@@ -1,7 +1,7 @@
 # Module 9 Keras
 # Restore Iris Model
 
-from tensorflow.python.keras.models import load_model
+from keras.models import load_model
 
 # Step 1: Restore Model
 model = load_model('./models/iris.h5')

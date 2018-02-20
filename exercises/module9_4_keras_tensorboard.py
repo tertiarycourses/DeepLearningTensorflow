@@ -1,9 +1,9 @@
 # Module 9 Keras
 # NN Model on MNIST dataaset
 
-from tensorflow.python import keras
-from tensorflow.python.keras.models import Sequential
-from tensorflow.python.keras.layers import Dense
+import keras
+from keras.models import Sequential
+from keras.layers import Dense
 
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
@@ -56,7 +56,7 @@ model.fit(X_train,y_train,
           callbacks=[logger])
 
 # Step 5: Evaluation
-score = model.evaluate(X_test, y_test)
-print("\nTraining Accuracy = ",score[1],"Loss",score[0])
+loss,acc = model.evaluate(X_test, y_test)
+print("\nTraining Accuracy = ",acc)
 
 

@@ -4,12 +4,12 @@
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 
-from tensorflow.python.keras.applications.inception_v3 import InceptionV3
-from tensorflow.python.keras.models import Model
-from tensorflow.python.keras.layers import GlobalAveragePooling2D
-from tensorflow.python.keras.layers import Dense
-from tensorflow.python.keras import optimizers
-from tensorflow.python.keras.preprocessing.image import ImageDataGenerator
+from keras.applications.inception_v3 import InceptionV3
+from keras.models import Model
+from keras.layers import GlobalAveragePooling2D
+from keras.layers import Dense
+from keras import optimizers
+from keras.preprocessing.image import ImageDataGenerator
 
 train_data_dir = "./data/cats_dogs/"
 img_width, img_height = 299, 299
