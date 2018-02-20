@@ -7,40 +7,37 @@ os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 import numpy as np
 import tensorflow as tf
 from tensorflow.contrib import rnn
-from tensorflow.python.keras.datasets import imdb
-from tensorflow.python.keras.preprocessing import sequence
 tf.set_random_seed(25)
 
 #Parameters
-training_epochs = 5
+training_epochs = 1
 batch_size = 100
-embedding_size = 128
-rnn_size = 128
-max_features = 20000
-max_len = 80
 learning_rate = 0.5
 
 # Step 1: Pre-process data
-(X_train, y_train), (X_test, y_test) = imdb.load_data(num_words=max_features)
-X_train = sequence.pad_sequences(X_train, maxlen=max_len)
-X_test = sequence.pad_sequences(X_test, maxlen=max_len)
+from keras.preprocessing import sequence
+from keras.datasets import imdb
 
-n_classes = len(np.unique(y_train))
+max_words= 20000
+max_len = 80
+(X_train, y_train), (X_test, y_test) = imdb.load_data(num_words=max_words)
+X_train = sequence.pad_sequences(X_train,maxlen=max_len,padding='pre', truncating='pre')
+X_test = sequence.pad_sequences(X_test,maxlen=max_len)
+
+# One-hot encoding the labels
+n_classes = len(np.unique(y_train)) # n_classes = 2
 y_train = np.eye(n_classes)[y_train]
 y_test = np.eye(n_classes)[y_test]
 
-# Step 1: Initial Setup
+embedding_size = 128
+rnn_size = 32
 X = tf.placeholder('int32', [None, max_len])
 y = tf.placeholder('int32')
-keep_prob = tf.placeholder('float32')
-
-W = tf.Variable(tf.random_normal([rnn_size, n_classes]))
-B = tf.Variable(tf.random_normal([n_classes]))
-
-embeddings = tf.Variable(tf.random_uniform([max_features, embedding_size], -1.0, 1.0))
+W = tf.Variable(tf.truncated_normal([rnn_size, n_classes],stddev=0.1))
+B = tf.Variable(tf.truncated_normal([n_classes],stddev=0.1))
+embeddings = tf.Variable(tf.random_uniform([max_words, embedding_size], -1.0, 1.0))
 
 # Step 2: Setup Model
-
 x_embedded = tf.nn.embedding_lookup(embeddings, X)
 x_embedded = tf.unstack(x_embedded, axis=1)
 cell = rnn.BasicLSTMCell(rnn_size)
@@ -70,7 +67,7 @@ for epoch in range(training_epochs):
         batch_y = y_train[(i*batch_size):((i+1)*batch_size)]
         train_data = {X: batch_X, y: batch_y}
         sess.run(train, feed_dict=train_data)
-        print("Training Accuracy = ", sess.run(accuracy, feed_dict=train_data))
+        print(epoch, "/", i,"Training Accuracy = ", sess.run(accuracy, feed_dict=train_data))
 
 # Step 6: Evaluation
 acc = []

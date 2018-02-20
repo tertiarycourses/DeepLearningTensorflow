@@ -11,8 +11,8 @@ tf.set_random_seed(25)
 # Parameters
 learning_rate = 0.01
 training_epochs = 1
-batch_size = 28
-rnn_size = 28
+batch_size = 100
+rnn_size = 64
 
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("mnist", one_hot=True)
@@ -26,7 +26,6 @@ B = tf.Variable(tf.truncated_normal([10],stddev=0.1))
 
 # Step 2: Setup Model
 inp = tf.unstack(X, axis=1)
-
 cell = rnn.BasicLSTMCell(rnn_size)
 H, C = rnn.static_rnn(cell, inp, dtype=tf.float32)
 

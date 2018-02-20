@@ -63,8 +63,8 @@ class ImageGenerator:
 
 
         sess = tf.Session()
-        saver = tf.train.import_meta_graph('./models/mnist_nn/mnist_nn.ckpt.meta')
-        saver.restore(sess, tf.train.latest_checkpoint('./models/mnist_nn'))
+        saver = tf.train.import_meta_graph('../models/mnist2/mnist_nn.cpkt.meta')
+        saver.restore(sess, tf.train.latest_checkpoint('../models/mnist2'))
 
         graph = tf.get_default_graph()
         X = graph.get_tensor_by_name("X:0")

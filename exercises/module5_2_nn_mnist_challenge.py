@@ -20,35 +20,41 @@ y = tf.placeholder(tf.float32, [None, 10])
 
 L1 = 200
 L2 = 100
-L3 = 60
-L4 = 30
+L3 = 50
+L4 = 40
 L5 = 30
+L6 = 20
 
-W1 = tf.Variable(tf.truncated_normal([784, L1], stddev=0.1))
-B1 = tf.Variable(tf.truncated_normal([L1],stddev=0.1))
-W2 = tf.Variable(tf.truncated_normal([L1, L2], stddev=0.1))
-B2 = tf.Variable(tf.truncated_normal([L2],stddev=0.1))
-W3 = tf.Variable(tf.truncated_normal([L2, L3], stddev=0.1))
-B3 = tf.Variable(tf.truncated_normal([L3],stddev=0.1))
-W4 = tf.Variable(tf.truncated_normal([L3, L4], stddev=0.1))
-B4 = tf.Variable(tf.truncated_normal([L4],stddev=0.1))
-W5 = tf.Variable(tf.truncated_normal([L4, L5], stddev=0.1))
-B5 = tf.Variable(tf.truncated_normal([L5],stddev=0.1))
-W6 = tf.Variable(tf.truncated_normal([L5, 10], stddev=0.1))
-B6 = tf.Variable(tf.truncated_normal([10],stddev=0.1))
+X = tf.placeholder(tf.float32,[None,784],name="X")
+y = tf.placeholder(tf.float32,[None,10])
+W1 = tf.Variable(tf.truncated_normal([784,L1],stddev=0.1))
+b1 = tf.Variable(tf.truncated_normal([L1],stddev=0.1))
+W2 = tf.Variable(tf.truncated_normal([L1,L2],stddev=0.1))
+b2 = tf.Variable(tf.truncated_normal([L2],stddev=0.1))
+W3 = tf.Variable(tf.truncated_normal([L2,L3],stddev=0.1))
+b3 = tf.Variable(tf.truncated_normal([L3],stddev=0.1))
+W4 = tf.Variable(tf.truncated_normal([L3,L4],stddev=0.1))
+b4 = tf.Variable(tf.truncated_normal([L4],stddev=0.1))
+W5 = tf.Variable(tf.truncated_normal([L4,L5],stddev=0.1))
+b5 = tf.Variable(tf.truncated_normal([L5],stddev=0.1))
+W6 = tf.Variable(tf.truncated_normal([L5,L6],stddev=0.1))
+b6 = tf.Variable(tf.truncated_normal([L6],stddev=0.1))
+W7 = tf.Variable(tf.truncated_normal([L6,10],stddev=0.1))
+b7 = tf.Variable(tf.truncated_normal([10],stddev=0.1))
 
 # Step 2: Setup Model
 # Y1 = tf.nn.sigmoid(tf.matmul(X, W1) + B1)
 # Y2 = tf.nn.sigmoid(tf.matmul(Y1, W2) + B2)
 # Y3 = tf.nn.sigmoid(tf.matmul(Y2, W3) + B3)
 # Y4 = tf.nn.sigmoid(tf.matmul(Y3, W4) + B4)
-Y1 = tf.nn.relu(tf.matmul(X, W1) + B1)
-Y2 = tf.nn.relu(tf.matmul(Y1, W2) + B2)
-Y3 = tf.nn.relu(tf.matmul(Y2, W3) + B3)
-Y4 = tf.nn.relu(tf.matmul(Y3, W4) + B4)
-Y5 = tf.nn.relu(tf.matmul(Y4, W5) + B4)
-Ylogits = tf.matmul(Y5, W6) + B6
-yhat = tf.nn.softmax(Ylogits)
+Y1 = tf.nn.relu(tf.matmul(X,W1)+b1)
+Y2 = tf.nn.relu(tf.matmul(Y1,W2)+b2)
+Y3 = tf.nn.relu(tf.matmul(Y2,W3)+b3)
+Y4 = tf.nn.relu(tf.matmul(Y3,W4)+b4)
+Y5 = tf.nn.relu(tf.matmul(Y4,W5)+b5)
+Y6 = tf.nn.relu(tf.matmul(Y5,W6)+b6)
+Ylogits = tf.matmul(Y6,W7)+b7
+yhat = tf.nn.softmax(Ylogits,name="yhat")
 
 # Step 3: Loss Functions
 loss = tf.reduce_mean(
@@ -66,7 +72,7 @@ init = tf.global_variables_initializer()
 sess = tf.Session()
 sess.run(init)
 
-# Step 5: Training Loop
+# Step 5: Train the Model
 for epoch in range(training_epochs):
     num_batches = int(mnist.train.num_examples/batch_size)
     for i in range(num_batches):
@@ -77,7 +83,7 @@ for epoch in range(training_epochs):
         print(epoch*num_batches+i+1, "Training accuracy =", sess.run(accuracy, feed_dict=train_data),
               "Loss =", sess.run(loss, feed_dict=train_data))
 
-# Step 6: Evaluation
+# Step 6: Evaluate the Model
 test_data = {X:mnist.test.images,y:mnist.test.labels}
 print("Testing Accuracy = ", sess.run(accuracy, feed_dict = test_data))
 

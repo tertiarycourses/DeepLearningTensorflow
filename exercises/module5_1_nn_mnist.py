@@ -21,8 +21,8 @@ y = tf.placeholder(tf.float32, [None, 10])
 
 L1 = 200
 L2 = 100
-L3 = 60
-L4 = 30
+L3 = 50
+L4 = 40
 
 W1 = tf.Variable(tf.truncated_normal([784, L1], stddev=0.1))
 B1 = tf.Variable(tf.truncated_normal([L1],stddev=0.1))
