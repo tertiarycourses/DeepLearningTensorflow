@@ -19,15 +19,16 @@ from keras.datasets import imdb
 X_train = sequence.pad_sequences(X_train, maxlen=maxlen)
 X_test = sequence.pad_sequences(X_test, maxlen=maxlen)
 
-n_classes = len(np.unique(y_train)) # n_classes = 2
-y_train = np.eye(n_classes)[y_train]
-y_test = np.eye(n_classes)[y_test]
+# n_classes = len(np.unique(y_train)) # n_classes = 2
+# y_train = np.eye(n_classes)[y_train]
+# y_test = np.eye(n_classes)[y_test]
 
 # Step 2: Build the Model
 model = Sequential()
 model.add(Embedding(max_features, 128))
 model.add(LSTM(128,activation='tanh'))
-model.add(Dense(2,activation='softmax'))
+# model.add(Dense(2,activation='softmax'))
+model.add(Dense(1,activation='sigmoid'))
 
 # Step 3: Compile the Model
 model.compile(optimizer='adam',loss='binary_crossentropy', metrics=['accuracy'])

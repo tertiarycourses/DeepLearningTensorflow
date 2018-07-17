@@ -4,8 +4,6 @@
 from keras.models import load_model
 import matplotlib.pyplot as plt
 
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 
 # Step 1: Load the Model
 model = load_model('./models/mnist_cnn.h5')

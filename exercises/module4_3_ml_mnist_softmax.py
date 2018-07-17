@@ -1,9 +1,6 @@
 # Module 4: Machine Learning using Tensorflow
 # Use softmax cross-entropy function on MINST dataset
 
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
-
 import tensorflow as tf
 # Parameters
 learning_rate = 0.5

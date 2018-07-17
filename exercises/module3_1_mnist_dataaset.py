@@ -1,9 +1,6 @@
 # Module 3: Datasets
 # MNIST Handwriting Dataset
 
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
-
 import matplotlib.pyplot as plt
 
 from tensorflow.examples.tutorials.mnist import input_data
@@ -13,7 +10,6 @@ X_train = mnist.train.images
 y_train = mnist.train.labels
 X_test = mnist.test.images
 y_test = mnist.test.labels
-
 
 # print(X_train.shape)
 # print(y_train.shape)
@@ -29,7 +25,5 @@ def show_digit(index):
 
 
 show_digit(1)
-#
-#
 # # batch_X, batch_Y = mnist.train.next_batch(100)
 # print(batch_X.shape)

@@ -1,16 +1,13 @@
 # Module 8: Recurrent Neural Network
 # Challenge: RNN on IMDB dataset
 
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
-
 import numpy as np
 import tensorflow as tf
 from tensorflow.contrib import rnn
 tf.set_random_seed(25)
 
 #Parameters
-training_epochs = 1
+training_epochs = 2
 batch_size = 100
 learning_rate = 0.5
 

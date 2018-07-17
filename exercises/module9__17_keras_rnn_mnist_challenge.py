@@ -5,9 +5,6 @@ import keras
 from keras.models import Sequential
 from keras.layers import Dense, LSTM
 
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
-
 n_classes = 10
 epochs = 2
 rnn_units = 28

@@ -1,9 +1,6 @@
 # Module 5: Neural Network and Deep Learning
 # NN model for MNIST dataset and save model
 
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
-
 import tensorflow as tf
 
 # Hyper Parameters
@@ -22,7 +19,6 @@ y = tf.placeholder(tf.float32, [None, 10])
 L1 = 200
 L2 = 100
 L3 = 50
-L4 = 40
 
 W1 = tf.Variable(tf.truncated_normal([784, L1], stddev=0.1))
 B1 = tf.Variable(tf.truncated_normal([L1],stddev=0.1))
@@ -30,10 +26,8 @@ W2 = tf.Variable(tf.truncated_normal([L1, L2], stddev=0.1))
 B2 = tf.Variable(tf.truncated_normal([L2],stddev=0.1))
 W3 = tf.Variable(tf.truncated_normal([L2, L3], stddev=0.1))
 B3 = tf.Variable(tf.truncated_normal([L3],stddev=0.1))
-W4 = tf.Variable(tf.truncated_normal([L3, L4], stddev=0.1))
-B4 = tf.Variable(tf.truncated_normal([L4],stddev=0.1))
-W5 = tf.Variable(tf.truncated_normal([L4, 10], stddev=0.1))
-B5 = tf.Variable(tf.truncated_normal([10],stddev=0.1))
+W4 = tf.Variable(tf.truncated_normal([L3, 10], stddev=0.1))
+B4 = tf.Variable(tf.truncated_normal([10],stddev=0.1))
 
 # Step 2: Setup Model
 # Y1 = tf.nn.sigmoid(tf.matmul(X, W1) + B1)
@@ -43,8 +37,8 @@ B5 = tf.Variable(tf.truncated_normal([10],stddev=0.1))
 Y1 = tf.nn.relu(tf.matmul(X, W1) + B1)
 Y2 = tf.nn.relu(tf.matmul(Y1, W2) + B2)
 Y3 = tf.nn.relu(tf.matmul(Y2, W3) + B3)
-Y4 = tf.nn.relu(tf.matmul(Y3, W4) + B4)
-Ylogits = tf.matmul(Y4, W5) + B5
+
+Ylogits = tf.matmul(Y3, W4) + B4
 yhat = tf.nn.softmax(Ylogits)
 
 # Step 3: Loss Functions

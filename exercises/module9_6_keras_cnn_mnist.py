@@ -1,9 +1,6 @@
 # Module 9 Keras
 # CNN Model on MNIST
 
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
-os.environ['TF_ENABLE_WINOGRAD_NONE_USED']='1'
 
 from keras.models import Sequential
 from keras.layers import Dense,Conv2D, MaxPooling2D,Flatten

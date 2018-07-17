@@ -3,7 +3,7 @@
 
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
-logdir = './tb/demo'
+logdir = './tb/bb1'
 
 import tensorflow as tf
 

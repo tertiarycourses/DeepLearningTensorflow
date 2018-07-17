@@ -1,9 +1,6 @@
 # Module 3: Datasets
 # CIFAR-10 dataset
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 
-# CIFAR-10 dataset from Keras
 from tensorflow.python.keras.datasets import cifar10
 (X_train, y_train), (X_test, y_test) = cifar10.load_data()
 

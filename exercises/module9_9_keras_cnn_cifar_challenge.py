@@ -6,10 +6,6 @@ from keras.models import Sequential
 from keras.layers import Dense,Dropout,Flatten
 from keras.layers import Conv2D, MaxPooling2D
 
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
-os.environ['TF_ENABLE_WINOGRAD_NONE_USED']='1'
-
 # Parameters
 n_classes = 10
 learning_rate = 1

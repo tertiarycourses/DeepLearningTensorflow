@@ -2,8 +2,6 @@
 # Save model
 
 import tensorflow as tf
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 
 # Parameters
 learning_rate = 0.008

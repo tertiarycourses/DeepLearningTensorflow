@@ -1,9 +1,6 @@
 # Module 4: Machine Learning using Tensorflow
 # Simple TF Model - Linear Regression
 
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
-
 import tensorflow as tf
 
 # Step 1: Initial Setup
@@ -23,6 +20,7 @@ yhat = tf.multiply(W,X) + b
 
 # # Step 3: Loss Function
 loss = tf.reduce_mean(tf.square(yhat - y))
+
 
 # # Step 4: Optimizer
 train = tf.train.GradientDescentOptimizer(0.01).minimize(loss)

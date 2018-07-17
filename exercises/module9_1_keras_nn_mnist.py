@@ -5,9 +5,6 @@ import keras
 from keras.models import Sequential
 from keras.layers import Dense
 
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
-
 # Hyper Parameters
 n_features = 784
 n_classes = 10
@@ -27,14 +24,12 @@ y_test = mnist.test.labels
 
 L1 = 200
 L2 = 100
-L3 = 60
-L4 = 30
+L3 = 50
 
 model = Sequential()
 model.add(Dense(L1, input_dim=n_features, activation='relu'))
 model.add(Dense(L2, activation='relu'))
 model.add(Dense(L3, activation='relu'))
-model.add(Dense(L4, activation='relu'))
 model.add(Dense(n_classes, activation='softmax'))
 print(model.summary())
 
@@ -42,7 +37,33 @@ print(model.summary())
 model.compile(optimizer='adam',loss='categorical_crossentropy',metrics=['accuracy'])
 
 # Step 4: Train the Model
-model.fit(X_train, y_train,epochs=training_epochs)
+history = model.fit(X_train,y_train,epochs=10,batch_size = 100,validation_data=(X_test,y_test))
+
+acc = history.history['acc']
+val_acc = history.history['val_acc']
+loss = history.history['loss']
+val_loss = history.history['val_loss']
+
+epochs = range(len(acc))
+
+import matplotlib.pyplot as plt
+plt.plot(epochs,acc,'b',label='training accuracy')
+plt.plot(epochs,val_acc,'r',label='testing accuracy')
+plt.title('Training vs Testing Accuracy')
+plt.xlabel('epoch')
+plt.ylabel('Accuracy')
+plt.legend()
+
+
+plt.figure()
+plt.plot(epochs,loss,'b',label='training loss')
+plt.plot(epochs,val_loss,'r',label='testing loss')
+plt.title('Training vs Testing Loss')
+plt.xlabel('epoch')
+plt.ylabel('Loss')
+plt.legend()
+
+plt.show()
 
 # Step 5: Evaluate the Model
 loss,acc = model.evaluate(X_test, y_test)

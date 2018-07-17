@@ -1,9 +1,6 @@
 # Module 4: Machine Learning using Tensorflow
 # Simple TF Model - Linear Regression Challenge
 
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
-
 import tensorflow as tf
 
 # Step 1 Initial Setup

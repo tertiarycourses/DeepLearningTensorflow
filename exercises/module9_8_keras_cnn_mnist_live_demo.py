@@ -1,9 +1,6 @@
 # Module 9 Keras
 # CNN Live Demo on MNIST dataset
 
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
-os.environ['TF_ENABLE_WINOGRAD_NONE_USED']='1'
 
 from keras.models import load_model
 import numpy as np
@@ -63,7 +60,7 @@ class ImageGenerator:
 
     def minst_nn_pred(self):
 
-        model = load_model('./models/mnist_cnn.h5')
+        model = load_model('keras_cnn.h5')
 
         img = self.image.convert('L').resize((28, 28))
         X_test = np.asarray(img)

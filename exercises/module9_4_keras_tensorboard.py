@@ -5,8 +5,6 @@ import keras
 from keras.models import Sequential
 from keras.layers import Dense
 
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 
 # Hyper Parameters
 n_features = 784
