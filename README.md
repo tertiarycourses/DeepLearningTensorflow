@@ -7,6 +7,8 @@ The course outline can be found in
 
 https://www.tertiarycourses.com.sg/deep-learning-neural-network-tensorflow.html
 
+https://www.tertiarycourses.com.my/deep-learning-neural-network-tensorflow-malaysia.html
+
 <h2>Day 1</h2>
 <p><strong>Module 1 Getting Started&nbsp;</strong></p>
 <ul>
