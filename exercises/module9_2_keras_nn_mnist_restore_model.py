@@ -1,11 +1,12 @@
 # Module 9 Keras
 # NN Model on MNIST dataset
+# Author: Dr. Alfred Ang
 
 from keras.models import load_model
 import matplotlib.pyplot as plt
 
 # Step 1: Load the Model
-model = load_model('./models/mnist.h5')
+model = load_model('./models/mnist_nn.h5')
 
 # Step 2: Evaluate
 from tensorflow.examples.tutorials.mnist import input_data

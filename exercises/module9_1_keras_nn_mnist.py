@@ -1,7 +1,12 @@
 # Module 9 Keras
 # NN Model on MNIST dataset
+# Author: Dr. Alfred Ang
+
+import tensorflow as tf
+tf.set_random_seed(25)
 
 import keras
+#from tensorflow import keras
 from keras.models import Sequential
 from keras.layers import Dense
 
@@ -34,10 +39,15 @@ model.add(Dense(n_classes, activation='softmax'))
 print(model.summary())
 
 # Step 3: Compile the Model
-model.compile(optimizer='adam',loss='categorical_crossentropy',metrics=['accuracy'])
+model.compile(optimizer='adam',
+              loss='categorical_crossentropy',
+              metrics=['accuracy'])
 
 # Step 4: Train the Model
-history = model.fit(X_train,y_train,epochs=10,batch_size = 100,validation_data=(X_test,y_test))
+history = model.fit(X_train,y_train,
+                    epochs=10,
+                    batch_size = 100,
+                    validation_data=(X_test,y_test))
 
 acc = history.history['acc']
 val_acc = history.history['val_acc']

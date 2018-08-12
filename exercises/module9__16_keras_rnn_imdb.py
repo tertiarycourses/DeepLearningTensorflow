@@ -1,5 +1,6 @@
 # Module 9 Keras
 # RNN Model on IMDB dataaset
+# Author: Dr. Alfred Ang
 
 import numpy as np
 from keras.preprocessing import sequence

@@ -1,8 +1,6 @@
 # Module 4: Machine Learning using Tensorflow
 # Live Demo on MNIST dataset
-
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
+# Author: Dr. Alfred Ang
 
 import tensorflow as tf
 import numpy as np

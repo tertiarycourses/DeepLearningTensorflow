@@ -1,6 +1,6 @@
 # Module 9 Keras
 # VGG16 Fine Tuning
-
+# Author: Dr. Alfred Ang
 
 from keras.applications.vgg16 import VGG16
 from keras.models import Model

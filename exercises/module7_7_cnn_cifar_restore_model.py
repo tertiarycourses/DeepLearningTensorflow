@@ -1,5 +1,6 @@
 # Module 7: Convolutional Neural Network (CNN)
 # Restore CNN Model
+# Author: Dr. Alfred Ang
 
 import tensorflow as tf
 import os

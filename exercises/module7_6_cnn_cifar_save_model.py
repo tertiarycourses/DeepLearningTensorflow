@@ -1,11 +1,9 @@
 # Module 7: Convolutional Neural Network (CNN)
 # Challenge : CIFAR-10 dataset
+# Author: Dr. Alfred Ang
 
 import tensorflow as tf
 from tensorflow.python import keras
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-os.environ['TF_ENABLE_WINOGRAD_NONE_USED']='1'
 
 # Parameters
 learning_rate = 0.01

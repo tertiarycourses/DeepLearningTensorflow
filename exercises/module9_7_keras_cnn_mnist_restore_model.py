@@ -1,5 +1,6 @@
 # Module 9 Keras
 # CNN Model on MNIST dataaset
+# Author: Dr. Alfred Ang
 
 from keras.models import load_model
 import matplotlib.pyplot as plt

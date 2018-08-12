@@ -1,5 +1,6 @@
 # Module 9 Keras
 # VGG16 Transfer Learning
+# Author: Dr. Alfred Ang
 
 from keras.applications.vgg16 import VGG16
 from keras.applications.vgg16 import preprocess_input,decode_predictions

@@ -1,10 +1,10 @@
 # Module 9 Keras
-# NN Model on MNIST dataaset
+# Keras Tensorboard
+# Author: Dr. Alfred Ang
 
 import keras
 from keras.models import Sequential
 from keras.layers import Dense
-
 
 # Hyper Parameters
 n_features = 784
@@ -41,10 +41,8 @@ model.compile(optimizer='adam',loss='categorical_crossentropy',metrics=['accurac
 
 # Create a TensorBoard logger
 logger = keras.callbacks.TensorBoard(
-    log_dir='.tb/demo4',
-    histogram_freq=1,
-    write_graph=True,
-    write_images=False
+    log_dir='./tb/test3',
+    write_graph=True
 )
 
 model.fit(X_train,y_train,

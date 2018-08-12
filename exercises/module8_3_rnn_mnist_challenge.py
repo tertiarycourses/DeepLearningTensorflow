@@ -1,11 +1,10 @@
 # Module 8: Recurrent Neural Network
 # RNN model for MNIST dataset
+# Author: Dr. Alfred Ang
 
 import tensorflow as tf
 from tensorflow.contrib import rnn
 
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 tf.set_random_seed(25)
 
 # Parameters

@@ -1,89 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc0c56e2-9968-4772-8dda-0d11eb507e42" name="Default" comment="" />
+    <list default="true" id="fc0c56e2-9968-4772-8dda-0d11eb507e42" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bay-1366.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/car-224.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/eagle-299.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/elephant-224.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/football-299.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/merlion-224.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/satay.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/snake-224.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module1_test_tensorflow.py" beforeDir="false" afterPath="$PROJECT_DIR$/module1_test_tensorflow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module2_simple_TF_operations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3_1_mnist_dataaset.py" beforeDir="false" afterPath="$PROJECT_DIR$/module3_1_mnist_dataaset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3_2_ex_onehot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3_3_cifar_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/module3_3_cifar_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module4_1_ml_regression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module4_1_regression_challenge.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module4_2_ml_mnist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module4_3_ml_mnist_softmax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module4_4_ml_mnist_save_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module4_5_ml_mnistt_restore_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module5_1_nn_mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/module5_1_nn_mnist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module5_2_nn_mnist_challenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/module5_2_nn_mnist_challenge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module5_3_nn_mnist_save_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/module5_3_nn_mnist_save_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module5_4_nn_mnist_restore_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/module5_4_nn_mnist_restore_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module5_5_nn_mnist_live_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/module5_5_nn_mnist_live_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module6_1_tensorboard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module6_2_tborad_mnist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module7_0_cnn_dropout.py" beforeDir="false" afterPath="$PROJECT_DIR$/module7_0_cnn_dropout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module7_1_cnn_mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/module7_1_cnn_mnist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module7_2_cnn_mnist_save_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/module7_2_cnn_mnist_save_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module7_3_cnn_mnist_restore_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/module7_3_cnn_mnist_restore_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module7_4_cnn_mnist_live_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/module7_4_cnn_mnist_live_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module7_5_cnn_cifar_challenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/module7_5_cnn_cifar_challenge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module7_6_cnn_cifar_save_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/module7_6_cnn_cifar_save_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module9_1_keras_nn_mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/module9_1_keras_nn_mnist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module9_2_keras_nn_mnist_restore_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/module9_2_keras_nn_mnist_restore_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module9_4_keras_tensorboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/module9_4_keras_tensorboard.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-882476246">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="74" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="74" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="2844" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="2844" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="exercises" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="module8_2_rnn_imdb.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module8_2_rnn_imdb.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module4_2_regression_challenge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+            <state relative-caret-position="99">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="module9_1_keras_nn_mnist.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module4_4_ml_mnist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module4_2_ml_regression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module9_1_keras_nn_mnist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1711">
-              <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+            <state relative-caret-position="203">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="module9_3_keras_nn_mnist_live_demo.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module9_3_keras_nn_mnist_live_demo.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="module9__13_keras_rnn_imdb.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module9__13_keras_rnn_imdb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="642">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="290">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="module9__14_keras_rnn_mnist_challenge.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module9__14_keras_rnn_mnist_challenge.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module10_1_tf_pre-made-estimators.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module10_1_tf_pre-made-estimators.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module10_2_tf_custom_estimators.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module10_2_tf_custom_estimators.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="module9_3a_keras_nn_mnist_challenge.py" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module9_3a_keras_nn_mnist_challenge.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="module9_4_keras_tensorboard.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module9_4_keras_tensorboard.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="module9_5_keras_tboard_challenge.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module9_5_keras_tboard_challenge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="232">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module9_4_keras_tensorboard.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="858">
+              <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module4_6_ml_mnist_save_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="50" selection-start-line="50" selection-end-line="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module4_7_ml_mnistt_restore_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module9_2_keras_nn_mnist_restore_model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -93,67 +180,70 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>temp.jpg</find>
+      <find>class</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/aa17.py" />
-        <option value="$PROJECT_DIR$/aa20.py" />
-        <option value="$PROJECT_DIR$/test2.py" />
-        <option value="$PROJECT_DIR$/test3.py" />
-        <option value="$PROJECT_DIR$/test4.py" />
-        <option value="$PROJECT_DIR$/test5.py" />
-        <option value="$PROJECT_DIR$/test6.py" />
-        <option value="$PROJECT_DIR$/test7.py" />
-        <option value="$PROJECT_DIR$/module9_8_keras_cnn_mnist_live_demo.py" />
-        <option value="$PROJECT_DIR$/test8.py" />
-        <option value="$PROJECT_DIR$/test9.py" />
-        <option value="$PROJECT_DIR$/untitled folder/module3_4_fine_tune_vgg16_cats_dogs.py" />
-        <option value="$PROJECT_DIR$/test10.py" />
-        <option value="$PROJECT_DIR$/demo2.py" />
-        <option value="$PROJECT_DIR$/demo3.py" />
-        <option value="$PROJECT_DIR$/demo4.py" />
-        <option value="$PROJECT_DIR$/demo7.py" />
-        <option value="$PROJECT_DIR$/demo5.py" />
-        <option value="$PROJECT_DIR$/demo8.py" />
-        <option value="$PROJECT_DIR$/demo10.py" />
-        <option value="$PROJECT_DIR$/demo9.py" />
-        <option value="$PROJECT_DIR$/demo11.py" />
-        <option value="$PROJECT_DIR$/demo12.py" />
-        <option value="$PROJECT_DIR$/demo13.py" />
-        <option value="$PROJECT_DIR$/demo14.py" />
-        <option value="$PROJECT_DIR$/demo15.py" />
-        <option value="$PROJECT_DIR$/demo18.py" />
-        <option value="$PROJECT_DIR$/module4_1_ml_regression.py" />
-        <option value="$PROJECT_DIR$/test1.py" />
-        <option value="$PROJECT_DIR$/module6_1_tensorboard.py" />
-        <option value="$PROJECT_DIR$/module9__9_keras_vgg_tf.py" />
-        <option value="$PROJECT_DIR$/module6_2_tborad_mnist.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/demo.py" />
         <option value="$PROJECT_DIR$/module2_simple_TF_operations.py" />
-        <option value="$PROJECT_DIR$/module3_1_mnist_dataaset.py" />
         <option value="$PROJECT_DIR$/module3_2_cifar_dataset.py" />
         <option value="$PROJECT_DIR$/module4_1_regression_challenge.py" />
         <option value="$PROJECT_DIR$/module4_4_ml_mnist_save_model.py" />
         <option value="$PROJECT_DIR$/module4_3_ml_mnist_softmax.py" />
         <option value="$PROJECT_DIR$/module4_2_ml_mnist.py" />
-        <option value="$PROJECT_DIR$/module5_2_nn_mnist_challenge.py" />
-        <option value="$PROJECT_DIR$/module5_1_nn_mnist.py" />
-        <option value="$PROJECT_DIR$/module9_2_keras_nn_mnist_restore_model.py" />
         <option value="$PROJECT_DIR$/module9_2b_keras_nn_mnist_live_demo.py" />
         <option value="$PROJECT_DIR$/module9_3_keras_nn_iris_challenge.py" />
-        <option value="$PROJECT_DIR$/module9_1_keras_nn_mnist.py" />
         <option value="$PROJECT_DIR$/module9_5_keras_tboard_challenge.py" />
         <option value="$PROJECT_DIR$/module9__13_keras_rnn_imdb.py" />
         <option value="$PROJECT_DIR$/module8_2_rnn_imdb.py" />
         <option value="$PROJECT_DIR$/module9__14_keras_rnn_mnist_challenge.py" />
+        <option value="$PROJECT_DIR$/module2_1_TF_basic_operations.py" />
+        <option value="$PROJECT_DIR$/module2_2_TF_graph_operations.py" />
+        <option value="$PROJECT_DIR$/module2_3_TF_placeholders.py" />
+        <option value="$PROJECT_DIR$/module2_4_TF_eagle_mode.py" />
+        <option value="$PROJECT_DIR$/module2_3_TF_eagle_mode.py" />
+        <option value="$PROJECT_DIR$/module3_1_mnist_dataaset.py" />
+        <option value="$PROJECT_DIR$/module3_2_ex_onehot.py" />
+        <option value="$PROJECT_DIR$/module3_2_one_hot_encode_decode.py" />
+        <option value="$PROJECT_DIR$/module3_3_cifar_dataset.py" />
+        <option value="$PROJECT_DIR$/module4_1_optimizer.py" />
+        <option value="$PROJECT_DIR$/module4_4_ml_mnist.py" />
+        <option value="$PROJECT_DIR$/module4_5_ml_mnist_softmax.py" />
+        <option value="$PROJECT_DIR$/module6_2_tborad_mnist.py" />
+        <option value="$PROJECT_DIR$/module6_1_tensorboard.py" />
+        <option value="$PROJECT_DIR$/module6_2_tb_mnist.py" />
+        <option value="$PROJECT_DIR$/module10_1_dataset.py" />
+        <option value="$PROJECT_DIR$/module4_2_regression_challenge.py" />
+        <option value="$PROJECT_DIR$/module10_3_estimator.py" />
+        <option value="$PROJECT_DIR$/module1_test_tensorflow.py" />
+        <option value="$PROJECT_DIR$/module5_1_nn_mnist.py" />
+        <option value="$PROJECT_DIR$/module5_2_nn_mnist_challenge.py" />
+        <option value="$PROJECT_DIR$/module7_1_cnn_mnist.py" />
+        <option value="$PROJECT_DIR$/module7_0_cnn_dropout.py" />
+        <option value="$PROJECT_DIR$/module5_3_nn_mnist_save_model.py" />
+        <option value="$PROJECT_DIR$/module5_4_nn_mnist_restore_model.py" />
+        <option value="$PROJECT_DIR$/module5_5_nn_mnist_live_demo.py" />
+        <option value="$PROJECT_DIR$/module7_2_cnn_mnist_save_model.py" />
+        <option value="$PROJECT_DIR$/module7_3_cnn_mnist_restore_model.py" />
+        <option value="$PROJECT_DIR$/module7_4_cnn_mnist_live_demo.py" />
+        <option value="$PROJECT_DIR$/module7_6_cnn_cifar_save_model.py" />
+        <option value="$PROJECT_DIR$/module7_5_cnn_cifar_challenge.py" />
+        <option value="$PROJECT_DIR$/module10_3_estimator_regression.py" />
+        <option value="$PROJECT_DIR$/module10_4_estimoator_classification.py" />
+        <option value="$PROJECT_DIR$/module4_2_ml_regression.py" />
+        <option value="$PROJECT_DIR$/module9_1_keras_nn_mnist.py" />
+        <option value="$PROJECT_DIR$/module9_2_keras_nn_mnist_restore_model.py" />
+        <option value="$PROJECT_DIR$/module9_4_keras_tensorboard.py" />
+        <option value="$PROJECT_DIR$/module4_6_ml_mnist_save_model.py" />
+        <option value="$PROJECT_DIR$/module4_7_ml_mnistt_restore_model.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-24" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="962" />
@@ -174,6 +264,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -187,6 +278,11 @@
               <item name="exercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercises" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -196,7 +292,7 @@
   <component name="PropertiesComponent">
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -227,8 +323,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.module10_1_tf_pre-made-estimators">
-    <configuration name="module10_1_tf_pre-made-estimators" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.module4_7_ml_mnistt_restore_model">
+    <configuration name="module4_6_ml_mnist_save_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,13 +336,16 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module10_1_tf_pre-made-estimators.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module4_6_ml_mnist_save_model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="module5_1_nn_mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="module4_7_ml_mnistt_restore_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -258,11 +357,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module5_1_nn_mnist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module4_7_ml_mnistt_restore_model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="module6_2_tborad_mnist" type="PythonConfigurationType" factoryName="Python">
       <module name="exercises" />
@@ -281,42 +383,9 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="module8_2_rnn_imdb" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="exercises" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module8_2_rnn_imdb.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="module9_1_keras_nn_mnist" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="exercises" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module9_1_keras_nn_mnist.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="module9_2_keras_nn_iris_challenge" type="PythonConfigurationType" factoryName="Python">
       <module name="exercises" />
@@ -335,8 +404,11 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="module9__13_keras_rnn_imdb" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="module9_2_keras_nn_mnist_restore_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="exercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -348,11 +420,56 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module9__13_keras_rnn_imdb.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module9_2_keras_nn_mnist_restore_model.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="module9_3a_keras_nn_mnist_challenge" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="exercises" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module9_3a_keras_nn_mnist_challenge.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="module9_4_keras_tensorboard" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="exercises" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module9_4_keras_tensorboard.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <module name="exercises" />
@@ -367,6 +484,7 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <module name="exercises" />
@@ -380,23 +498,24 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.module6_2_tborad_mnist" />
       <item itemvalue="Python.module9_2_keras_nn_iris_challenge" />
-      <item itemvalue="Python.module5_1_nn_mnist" />
-      <item itemvalue="Python.module8_2_rnn_imdb" />
-      <item itemvalue="Python.module9_1_keras_nn_mnist" />
-      <item itemvalue="Python.module9__13_keras_rnn_imdb" />
-      <item itemvalue="Python.module10_1_tf_pre-made-estimators" />
+      <item itemvalue="Python.module9_2_keras_nn_mnist_restore_model" />
+      <item itemvalue="Python.module9_3a_keras_nn_mnist_challenge" />
+      <item itemvalue="Python.module9_4_keras_tensorboard" />
+      <item itemvalue="Python.module4_6_ml_mnist_save_model" />
+      <item itemvalue="Python.module4_7_ml_mnistt_restore_model" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.module10_1_tf_pre-made-estimators" />
-        <item itemvalue="Python.module8_2_rnn_imdb" />
-        <item itemvalue="Python.module9__13_keras_rnn_imdb" />
-        <item itemvalue="Python.module9_1_keras_nn_mnist" />
-        <item itemvalue="Python.module5_1_nn_mnist" />
+        <item itemvalue="Python.module4_7_ml_mnistt_restore_model" />
+        <item itemvalue="Python.module4_6_ml_mnist_save_model" />
+        <item itemvalue="Python.module9_4_keras_tensorboard" />
+        <item itemvalue="Python.module9_3a_keras_nn_mnist_challenge" />
+        <item itemvalue="Python.module9_2_keras_nn_mnist_restore_model" />
       </list>
     </recent_temporary>
   </component>
@@ -414,12 +533,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetests_in_test2_py - 2017.08.01 at 10h 32m 28s.xml">
-      <configuration name="Nosetests in test2.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_in_test_py - 2017.07.17 at 10h 26m 49s.xml">
-      <configuration name="Nosetests in test.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Nosetests_in_test_py - 2017.07.17 at 10h 46m 52s.xml">
       <configuration name="Nosetests in test.py" configurationId="tests" />
     </history-entry>
@@ -435,6 +548,21 @@
     <history-entry file="Nosetests_in_test_py - 2017.08.02 at 16h 57m 26s.xml">
       <configuration name="Nosetests in test.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Nosetests_in_module10_4_estimoator_classification_py - 2018.08.12 at 00h 10m 25s.xml">
+      <configuration name="Nosetests in module10_4_estimoator_classification.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_module10_4_estimoator_classification_py - 2018.08.12 at 00h 10m 26s.xml">
+      <configuration name="Nosetests in module10_4_estimoator_classification.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_module10_4_estimoator_classification_py - 2018.08.12 at 00h 10m 47s.xml">
+      <configuration name="Nosetests in module10_4_estimoator_classification.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_module10_4_estimoator_classification_test_func - 2018.08.12 at 00h 12m 29s.xml">
+      <configuration name="Nosetests for module10_4_estimoator_classification.test_func" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_module10_4_estimoator_classification_py - 2018.08.12 at 13h 13m 11s.xml">
+      <configuration name="Nosetests in module10_4_estimoator_classification.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -446,46 +574,47 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-24" y="23" width="1680" height="962" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="962" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7699115" visible="true" weight="0.25738397" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21618497" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32923076" />
-      <window_info id="Structure" order="0" side_tool="true" weight="0.24954791" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.10404624" />
+      <window_info id="Structure" order="0" sideWeight="0.39794168" side_tool="true" weight="0.25738397" />
+      <window_info id="Favorites" order="1" sideWeight="0.23583815" side_tool="true" weight="0.25738397" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.6020583" visible="true" weight="0.2790838" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33793104" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39677048" />
-      <window_info id="Favorites" order="1" sideWeight="0.2300885" side_tool="true" visible="true" weight="0.25738397" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.19195402" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50030136" side_tool="true" weight="0.32873562" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32988507" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.4996986" weight="0.32873562" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.1816092" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16998191" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Data View" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24954791" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32102564" />
-      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32102564" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39677048" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -500,306 +629,293 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="17" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/elephant.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/module2_1_TF_math_operations.py" />
+    <entry file="file://$PROJECT_DIR$/module4_4_ml_mnist_save_model.py" />
+    <entry file="file://$PROJECT_DIR$/module9__12_keras_vgg_tf.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo15.py">
+    <entry file="file://$PROJECT_DIR$/module9__16_keras_rnn_imdb.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module9__10_keras_cnn_cifar_restore_model.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2_3_TF_placeholders.py" />
+    <entry file="file://$PROJECT_DIR$/module2_4_TF_eagle_mode.py" />
+    <entry file="file://$PROJECT_DIR$/module2_3_TF_eagle_mode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        <state relative-caret-position="203">
+          <caret line="7" selection-start-line="7" selection-start-column="2" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo13.py">
+    <entry file="file://$PROJECT_DIR$/module3_2_ex_onehot.py" />
+    <entry file="file://$PROJECT_DIR$/module4_1_regression_challenge.py" />
+    <entry file="file://$PROJECT_DIR$/module4_1_optimizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="29">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo18.py">
+    <entry file="file://$PROJECT_DIR$/module4_5_ml_mnist_softmax.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="142">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module6_2_tborad_mnist.py" />
+    <entry file="file://$PROJECT_DIR$/module6_1_tensorboard.py" />
+    <entry file="file://$PROJECT_DIR$/module10_1_dataset.py" />
+    <entry file="file://$PROJECT_DIR$/module10_2_tf_records.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module10_3_estimator.py" />
+    <entry file="file://$PROJECT_DIR$/module1_test_tensorflow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2_1_TF_basic_operations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2_2_TF_graph_operations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="26" selection-start-line="26" selection-end-line="27" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module2_4_TF_placeholders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module3_2_one_hot_encode_decode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module3_3_cifar_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module5_2_nn_mnist_challenge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module5_3_nn_mnist_save_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module5_4_nn_mnist_restore_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module5_5_nn_mnist_live_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="87">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module6_1_tensorboard.py">
+    <entry file="file://$PROJECT_DIR$/module5_1_nn_mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="87">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module6_1_tb_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="34" selection-start-line="34" selection-end-line="34" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module6_2_tb_mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2755">
+          <caret line="95" column="18" selection-start-line="95" selection-start-column="18" selection-end-line="95" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module7_0_cnn_dropout.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module7_1_cnn_mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1128">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        <state relative-caret-position="87">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module7_5_cnn_cifar_challenge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module9__9_keras_vgg_tf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/cats.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module9__11_keras_vgg_fine_tune.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
-          <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module6_2_tborad_mnist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-449">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" selection-start-line="5" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module1_test_tensorflow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module2_simple_TF_operations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module3_2_cifar_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module3_3_onehot.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module3_1_mnist_dataaset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module4_4_ml_mnist_save_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module4_3_ml_mnist_softmax.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module4_2_ml_mnist.py">
+    <entry file="file://$PROJECT_DIR$/module7_2_cnn_mnist_save_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module4_1_regression_challenge.py">
+    <entry file="file://$PROJECT_DIR$/module7_3_cnn_mnist_restore_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module7_4_cnn_mnist_live_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module4_1_ml_regression.py">
+    <entry file="file://$PROJECT_DIR$/module7_5_cnn_cifar_challenge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="928">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        <state relative-caret-position="2291">
+          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module3_3_cifar_dataset.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/module7_6_cnn_cifar_save_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module5_1_nn_mnist.py">
+    <entry file="file://$PROJECT_DIR$/module3_1_mnist_dataaset.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <caret line="6" column="8" selection-start-line="2" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module5_2_nn_mnist_challenge.py">
+    <entry file="file://$PROJECT_DIR$/module9_9_keras_cnn_cifar_challenge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-295">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="-614">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module8_1_imdb_dataset.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module9_2b_keras_nn_mnist_live_demo.py">
+    <entry file="file://$PROJECT_DIR$/module10_4_estimoator_classification.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="986">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module9_3_keras_nn_iris_challenge.py">
+    <entry file="file://$PROJECT_DIR$/module10_3_estimator_regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="493">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module9_2c_keras_nn_mnist_challenge.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/module4_2_ml_regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module8_3_rnn_mnist_challenge.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/module4_2_regression_challenge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module4_4_ml_mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module9_2_keras_nn_mnist_restore_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="116">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module9_6_keras_cnn_mnist.py">
+    <entry file="file://$PROJECT_DIR$/module9_3_keras_nn_mnist_live_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        <state relative-caret-position="290">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/module9_3a_keras_nn_mnist_challenge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-164">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="232">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-938" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test6.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-876" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-995" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test9.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test10.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module9_1_keras_nn_mnist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1711">
-          <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module9_5_keras_tboard_challenge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="203">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module9_4_keras_tensorboard.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module9_3a_keras_nn_mnist_challenge.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module9_3_keras_nn_mnist_live_demo.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module8_2_rnn_imdb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        <state relative-caret-position="858">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module9__13_keras_rnn_imdb.py">
+    <entry file="file://$PROJECT_DIR$/module4_6_ml_mnist_save_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="343">
+          <caret line="50" selection-start-line="50" selection-end-line="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module9__14_keras_rnn_mnist_challenge.py">
+    <entry file="file://$PROJECT_DIR$/module4_7_ml_mnistt_restore_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="261">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module10_1_tf_pre-made-estimators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module10_2_tf_custom_estimators.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

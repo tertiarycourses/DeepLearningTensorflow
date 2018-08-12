@@ -1,6 +1,6 @@
 # Module 9 Keras
 # RESNET Transfer Learning
-
+# Author: Dr. Alfred Ang
 
 import numpy as np
 

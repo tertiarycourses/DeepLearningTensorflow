@@ -1,6 +1,6 @@
 # Module 9 Keras
 # CNN Model on MNIST
-
+# Author: Dr. Alfred Ang
 
 from keras.models import Sequential
 from keras.layers import Dense,Conv2D, MaxPooling2D,Flatten

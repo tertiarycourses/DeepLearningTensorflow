@@ -1,5 +1,6 @@
 # Module 3: Datasets
 # CIFAR-10 dataset
+# Author: Dr. Alfred Ang
 
 from tensorflow.python.keras.datasets import cifar10
 (X_train, y_train), (X_test, y_test) = cifar10.load_data()

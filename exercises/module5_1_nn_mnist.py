@@ -1,5 +1,6 @@
 # Module 5: Neural Network and Deep Learning
 # NN model for MNIST dataset and save model
+# Author: Dr. Alfred Ang
 
 import tensorflow as tf
 

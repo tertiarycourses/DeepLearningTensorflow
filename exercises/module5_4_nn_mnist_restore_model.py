@@ -1,9 +1,8 @@
 # Module 4: Simple TF Model
 # Use softmax cross-entropy function on MINST dataset
+# Author: Dr. Alfred Ang
 
 import tensorflow as tf
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 
 # Step 1: Restore Graph
 sess = tf.Session()

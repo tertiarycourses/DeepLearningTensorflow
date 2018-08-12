@@ -2,7 +2,6 @@
 # Droptout
 # Author: Dr. Alfred Ang
 
-
 import tensorflow as tf
 
 X = [1.5, 0.5, 0.75, 1.0, 0.75, 0.6]

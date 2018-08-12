@@ -1,5 +1,6 @@
 # Module 8: Recurrent Neural Network
 # Challenge: RNN on IMDB dataset
+# Author: Dr. Alfred Ang
 
 import numpy as np
 import tensorflow as tf

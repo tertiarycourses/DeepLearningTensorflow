@@ -1,5 +1,6 @@
 # Module 8: Recurrent Neural Network
 # IMDB dataset
+# Author: Dr. Alfred Ang
 
 from keras.datasets import imdb
 import numpy as np

@@ -2,10 +2,7 @@
 # Challenge : CIFAR-10 dataset
 
 import tensorflow as tf
-from tensorflow.python import keras
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-os.environ['TF_ENABLE_WINOGRAD_NONE_USED']='1'
+from tensorflow import keras
 
 # Parameters
 learning_rate = 0.01
@@ -13,7 +10,7 @@ training_epochs = 1
 batch_size = 100
 
 # Step 1: Initial Setup
-from tensorflow.python.keras.datasets import cifar10
+from keras.datasets import cifar10
 (X_train, y_train), (X_test, y_test) = cifar10.load_data()
 X_train = X_train.astype('float32')
 X_test = X_test.astype('float32')

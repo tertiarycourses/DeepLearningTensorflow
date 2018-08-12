@@ -1,5 +1,6 @@
 # Module 9 Keras
-# Tensorboard Challenge
+# keras Tensorboard Challenge
+# Author: Dr. Alfred Ang
 
 import keras
 from keras.models import Sequential

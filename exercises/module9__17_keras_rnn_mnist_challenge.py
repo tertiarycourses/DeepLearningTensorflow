@@ -1,5 +1,6 @@
 # Module 9 Keras
 # RNN Model on MNIST dataaset
+# Author: Dr. Alfred Ang
 
 import keras
 from keras.models import Sequential

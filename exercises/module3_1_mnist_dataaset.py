@@ -1,5 +1,6 @@
 # Module 3: Datasets
 # MNIST Handwriting Dataset
+# Author: Dr. Alfred Ang
 
 import matplotlib.pyplot as plt
 

@@ -1,5 +1,6 @@
 # Module 9 Keras
 # Challenge: CNN Model on CIFAR-10 dataaset
+# Author: Dr. Alfred Ang
 
 import keras
 from keras.models import Sequential

@@ -1,5 +1,6 @@
 # Module 9 Keras
 # NN Live Demo on MNIST dataset
+# Author: Dr. Alfred Ang
 
 from keras.models import load_model
 import numpy as np

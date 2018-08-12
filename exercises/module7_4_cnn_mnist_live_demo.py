@@ -1,10 +1,6 @@
 # Module 7: Convolutional Neural Network (CNN)
 # Live Demo on MNIST dataset
 
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
-os.environ['TF_ENABLE_WINOGRAD_NONE_USED']='1'
-
 import tensorflow as tf
 import numpy as np
 import tkinter as tk

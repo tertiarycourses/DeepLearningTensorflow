@@ -1,6 +1,6 @@
 # Module 9 Keras
 # Challenge InceptionV3 Transfer Learning
-
+# Author: Dr. Alfred Ang
 
 from keras.applications.inception_v3 import InceptionV3
 from keras.models import Model

@@ -1,10 +1,6 @@
 # Module 7: Convolutional Neural Network (CNN)
 # Restore CNN Model
 
-import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
-os.environ['TF_ENABLE_WINOGRAD_NONE_USED']='1'
-
 import tensorflow as tf
 
 # Step 1: Restore Graph
