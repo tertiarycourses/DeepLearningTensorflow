@@ -49,3 +49,7 @@ for i in range(5000):
 # Step 6: Evaluation
 test_data = {X:mnist.test.images,y:mnist.test.labels}
 print("Testing accuracy = ",sess.run(accuracy, feed_dict=test_data))
+
+# Step 7 Save Model
+saver = tf.train.Saver()
+saver.save(sess, "./models/mnist_ml/")

@@ -10,7 +10,7 @@ from keras.layers import Dense
 n_features = 784
 n_classes = 10
 learning_rate = 0.5
-training_epochs = 5
+training_epochs = 10
 
 # Step 1: Pre-process the  Data
 from tensorflow.examples.tutorials.mnist import input_data

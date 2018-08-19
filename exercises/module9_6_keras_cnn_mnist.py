@@ -8,7 +8,7 @@ from keras.layers import Dense,Conv2D, MaxPooling2D,Flatten
 # Parameters
 n_classes = 10
 learning_rate = 0.5
-training_epochs = 1
+training_epochs = 2
 batch_size = 100
 
 # Step 1 Load the Data

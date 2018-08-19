@@ -50,13 +50,13 @@ sess = tf.Session()
 # for _ in range(5):
 #         print(sess.run(iter.get_next()))
 
-ds1 = tf.data.Dataset.range(3)
-ds2 = tf.data.Dataset.range(3,6)
-ds3 = ds1.concatenate(ds2)
-ds4 = ds3.batch(3)
-ds5 = ds3.shuffle(6)
+# ds1 = tf.data.Dataset.range(3)
+# ds2 = tf.data.Dataset.range(3,6)
+# ds3 = ds1.concatenate(ds2)
+# ds4 = ds3.batch(3)
+# ds5 = ds3.shuffle(6)
 
-iter = ds5.make_one_shot_iterator()
-
-for _ in range(6):
-    print(sess.run(iter.get_next()))
+# iter = ds_t.make_one_shot_iterator()
+#
+# for _ in range(6):
+#     print(sess.run(iter.get_next()))
