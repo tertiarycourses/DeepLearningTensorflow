@@ -6,9 +6,9 @@ import tensorflow as tf
 
 # Parameters
 learning_rate = 0.01
-training_epochs = 2
+training_epochs = 5
 batch_size = 100
-logdir = './tb/demo2/relu'
+logdir = './tb/demo88/sigmoid'
 
 tf.set_random_seed(25)
 
@@ -39,14 +39,14 @@ with tf.name_scope('Variables'):
 
 # Step 2: Setup Model
 with tf.name_scope('Model'):
-    # Y1 = tf.nn.sigmoid(tf.matmul(X, W1) + B1)
-    # Y2 = tf.nn.sigmoid(tf.matmul(Y1, W2) + B2)
-    # Y3 = tf.nn.sigmoid(tf.matmul(Y2, W3) + B3)
-    # Y4 = tf.nn.sigmoid(tf.matmul(Y3, W4) + B4)
-    Y1 = tf.nn.relu(tf.matmul(X, W1) + B1)
-    Y2 = tf.nn.relu(tf.matmul(Y1, W2) + B2)
-    Y3 = tf.nn.relu(tf.matmul(Y2, W3) + B3)
-    Y4 = tf.nn.relu(tf.matmul(Y3, W4) + B4)
+    Y1 = tf.nn.sigmoid(tf.matmul(X, W1) + B1)
+    Y2 = tf.nn.sigmoid(tf.matmul(Y1, W2) + B2)
+    Y3 = tf.nn.sigmoid(tf.matmul(Y2, W3) + B3)
+    Y4 = tf.nn.sigmoid(tf.matmul(Y3, W4) + B4)
+    # Y1 = tf.nn.relu(tf.matmul(X, W1) + B1)
+    # Y2 = tf.nn.relu(tf.matmul(Y1, W2) + B2)
+    # Y3 = tf.nn.relu(tf.matmul(Y2, W3) + B3)
+    # Y4 = tf.nn.relu(tf.matmul(Y3, W4) + B4)
     Ylogits = tf.matmul(Y4, W5) + B5
     yhat = tf.nn.softmax(Ylogits)
 

@@ -61,7 +61,7 @@ class ImageGenerator:
 
     def minst_nn_pred(self):
 
-        model = load_model('keras_cnn.h5')
+        model = load_model('./models/mnist_cnn.h5')
 
         img = self.image.convert('L').resize((28, 28))
         X_test = np.asarray(img)

@@ -7,13 +7,13 @@ import tensorflow as tf
 learn_rate = 0.1
 
 x = tf.Variable(0.0)
-loss = tf.pow(x, 2) - 4.0 * x + 5.0
+y = tf.pow(x, 2) - 4.0 * x + 5.0
 
-optimizer = tf.train.AdamOptimizer(learn_rate).minimize(loss)
+y_min = tf.train.AdamOptimizer(learn_rate).minimize(y)
 
 sess = tf.Session()
 sess.run(tf.global_variables_initializer())
 
 for _ in range(100):
-    _, loss_val, x_val = sess.run([optimizer, loss, x])
-    print('x:{}, loss:{}'.format(x_val, loss_val))
+    _, y_val, x_val = sess.run([y_min, y, x])
+    print('x:{}, :{}'.format(x_val, y_val))

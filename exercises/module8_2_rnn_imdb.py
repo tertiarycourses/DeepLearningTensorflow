@@ -38,7 +38,7 @@ embeddings = tf.Variable(tf.random_uniform([max_words, embedding_size], -1.0, 1.
 # Step 2: Setup Model
 x_embedded = tf.nn.embedding_lookup(embeddings, X)
 x_embedded = tf.unstack(x_embedded, axis=1)
-cell = rnn.BasicLSTMCell(rnn_size)
+cell = tf.nn.rnn_cell.LSTMCell(rnn_size)
 H, C = rnn.static_rnn(cell, x_embedded, dtype=tf.float32)
 
 Ylogits = tf.matmul(H[-1], W) + B
