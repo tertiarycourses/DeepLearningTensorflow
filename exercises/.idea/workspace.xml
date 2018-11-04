@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7421b3d-14f3-4748-b871-88a050a67c97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module4_1_optimizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/module4_1_optimizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module6_1_tb_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/module6_1_tb_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module6_2_tb_mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/module6_2_tb_mnist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module8_2_rnn_imdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/module8_2_rnn_imdb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module9_8_keras_cnn_mnist_live_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/module9_8_keras_cnn_mnist_live_demo.py" afterDir="false" />
-    </list>
+    <list default="true" id="b7421b3d-14f3-4748-b871-88a050a67c97" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,7 +320,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="962" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24472573" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
