@@ -1,5 +1,5 @@
 # Deep Learning and Machine Learning with TensorFlow
-## by [Tertiary Infotech Pte. Ltd](https://www.tertiarycourses.com.sg/)
+## by [Tertiary Courses](https://www.tertiarycourses.com.sg/)
 
 These are the exercise files used for [Deep Learning and Machine Learning with TensorFlow](https://www.tertiarycourses.com.sg/deep-learning-neural-network-tensorflow.html) course. 
 
